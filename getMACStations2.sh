@@ -34,8 +34,8 @@ function main
   do
     #echo $line
     # Get user and ip
-    user=$(echo "$line"|cut -f 1 -s -d " ")
-    ip=$(echo "$line"|cut -f 2 -s -d " ")
+    user=$(echo "$line"|cut -f 1 -s -d ",")
+    ip=$(echo "$line"|cut -f 2 -s -d ",")
     #echo $user
     #echo $ip
     # Delete, if exists, the temp files
@@ -57,7 +57,7 @@ function main
   while read line
   do
     #Get ip
-    ip=$(echo "$line"|cut -f 2 -s -d " ")
+    ip=$(echo "$line"|cut -f 2 -s -d ",")
     #Cat file content
     cat /tmp/$ip
   done
