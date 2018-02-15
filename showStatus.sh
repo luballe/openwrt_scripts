@@ -1,12 +1,24 @@
 pids=""
+if [ -f /tmp/macsByRouter.txt ]; then
+  rm /tmp/macsByRouter.txt
+fi
+if [ -f /tmp/allActiveHostsFromNmap.txt ]; then
+  rm /tmp/allActiveHostsFromNmap.txt
+fi
+if [ -f /tmp/hostnamesFromLeases.txt ]; then
+  rm /tmp/hostnamesFromLeases.txt
+fi
+if [ -f /tmp/temp.txt ]; then
+  rm /tmp/temp.txt
+fi
 echo "getting MAC addresses from routers... "
 ./showMACsbyRouter.sh > /tmp/macsByRouter.txt &
 pids="$pids $!"
 #echo "Done!"
 echo "getting all active hosts from nmap... "
 ./showAllActiveHostsFromNmap.sh > /tmp/allActiveHostsFromNmap.txt &
-#echo "Done!"
 pids="$pids $!"
+#echo "Done!"
 echo "getting hostnames by mac address from leases... "
 ./showHostNamesFromLeases.sh > /tmp/hostnamesFromLeases.txt &
 pids="$pids $!"
