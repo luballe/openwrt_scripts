@@ -24,6 +24,6 @@ do
     #host=`cat /tmp/dhcp.leases | cut -f 2,3,4 -s -d" " | grep $mac | cut -f 3 -s -d" "`
     # ... show the mac address:
     #echo -e "$ip\t$host\t$mac"
-    echo "Piso__1,"$mac
+    echo "Piso__1,"$mac | awk '{print toupper($0)}'
   done
 done

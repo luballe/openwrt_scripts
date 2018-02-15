@@ -1,0 +1,21 @@
+
+config wifi-device 'radio0'
+	option type 'mac80211'
+	option hwmode '11g'
+	option path 'platform/ar933x_wmac'
+	option htmode 'HT20'
+	option country 'CO'
+	option channel '13'
+	option txpower '16'
+
+config wifi-iface
+	option device 'radio0'
+	option mode 'ap'
+	option ssid 'ermita'
+	option network 'WLAN0 lan'
+	option encryption 'wpa2'
+	option auth_server '192.168.1.107'
+	option auth_port '1812'
+	option auth_secret 'Febrero2018!!'
+        option macfilter 'deny'
+        option network 'lan wlan0'

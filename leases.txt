@@ -1,0 +1,175 @@
+# The format of this file is documented in the dhcpd.leases(5) manual page.
+# This lease file was written by isc-dhcp-4.3.5
+
+# authoring-byte-order entry is generated, DO NOT DELETE
+authoring-byte-order little-endian;
+
+lease 192.168.1.24 {
+  starts 4 2018/02/15 00:24:07;
+  ends 4 2018/02/15 00:34:07;
+  tstp 4 2018/02/15 00:34:07;
+  cltt 4 2018/02/15 00:24:07;
+  binding state free;
+  hardware ethernet a8:96:75:69:ce:5d;
+  uid "\001\250\226ui\316]";
+  set vendor-class-identifier = "android-dhcp-7.0";
+}
+lease 192.168.1.22 {
+  starts 4 2018/02/15 00:44:52;
+  ends 4 2018/02/15 00:54:52;
+  tstp 4 2018/02/15 00:54:52;
+  cltt 4 2018/02/15 00:44:52;
+  binding state free;
+  hardware ethernet 74:72:b0:90:d1:f1;
+  set vendor-class-identifier = "dhcpcd 4.0.15";
+}
+lease 192.168.1.25 {
+  starts 4 2018/02/15 00:44:54;
+  ends 4 2018/02/15 00:54:54;
+  tstp 4 2018/02/15 00:54:54;
+  cltt 4 2018/02/15 00:44:54;
+  binding state free;
+  hardware ethernet e0:ca:94:3e:d5:84;
+  uid "\001\340\312\224>\325\204";
+  set vendor-class-identifier = "MSFT 5.0";
+}
+lease 192.168.1.23 {
+  starts 4 2018/02/15 00:52:14;
+  ends 4 2018/02/15 01:02:14;
+  tstp 4 2018/02/15 01:02:14;
+  cltt 4 2018/02/15 00:52:14;
+  binding state free;
+  hardware ethernet 88:28:b3:54:8d:1a;
+  set vendor-class-identifier = "dhcpcd-5.5.6";
+}
+lease 192.168.1.5 {
+  starts 4 2018/02/15 00:53:43;
+  ends 4 2018/02/15 01:03:43;
+  tstp 4 2018/02/15 01:03:43;
+  cltt 4 2018/02/15 00:55:22;
+  binding state free;
+  hardware ethernet 8c:bf:a6:29:5e:c0;
+  uid "\001\214\277\246)^\300";
+  set vendor-class-identifier = "dhcpcd-5.5.6";
+}
+lease 192.168.1.11 {
+  starts 4 2018/02/15 00:59:27;
+  ends 4 2018/02/15 01:09:27;
+  tstp 4 2018/02/15 01:09:27;
+  cltt 4 2018/02/15 00:59:27;
+  binding state free;
+  hardware ethernet 94:53:30:c6:89:99;
+  set vendor-class-identifier = "dhcpcd-5.5.6";
+}
+lease 192.168.1.28 {
+  starts 4 2018/02/15 01:05:58;
+  ends 4 2018/02/15 01:15:58;
+  cltt 4 2018/02/15 01:05:58;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet e8:b4:c8:d4:fe:bd;
+  uid "\001\350\264\310\324\376\275";
+  set vendor-class-identifier = "dhcpcd-5.5.6";
+  client-hostname "android-c11c0a6033c63c43";
+}
+lease 192.168.1.37 {
+  starts 4 2018/02/15 01:09:06;
+  ends 4 2018/02/15 01:19:06;
+  cltt 4 2018/02/15 01:09:06;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 68:a0:f6:75:54:46;
+  set vendor-class-identifier = "dhcpcd-5.5.6";
+  client-hostname "android-4c7f23a2ead89c49";
+}
+lease 192.168.1.27 {
+  starts 4 2018/02/15 01:09:45;
+  ends 4 2018/02/15 01:19:45;
+  cltt 4 2018/02/15 01:09:45;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet bc:6e:64:7c:0e:a2;
+  uid "\001\274nd|\016\242";
+  set vendor-class-identifier = "android-dhcp-6.0.1";
+  client-hostname "android-3bc549c06995312f";
+}
+lease 192.168.1.10 {
+  starts 4 2018/02/15 01:10:12;
+  ends 4 2018/02/15 01:20:12;
+  cltt 4 2018/02/15 01:10:12;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 2c:fd:ab:2c:2b:4e;
+  set vendor-class-identifier = "android-dhcp-7.0";
+  client-hostname "android-d6e1aaa1032158f5";
+}
+lease 192.168.1.26 {
+  starts 4 2018/02/15 01:12:49;
+  ends 4 2018/02/15 01:22:49;
+  cltt 4 2018/02/15 01:12:49;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 9c:df:b6:07:38:73;
+  set vendor-class-identifier = "dhcpcd-5.5.6";
+  client-hostname "android-a2efd2dae3146488";
+}
+lease 192.168.1.37 {
+  starts 4 2018/02/15 01:13:55;
+  ends 4 2018/02/15 01:23:55;
+  cltt 4 2018/02/15 01:13:55;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 68:a0:f6:75:54:46;
+  set vendor-class-identifier = "dhcpcd-5.5.6";
+  client-hostname "android-4c7f23a2ead89c49";
+}
+lease 192.168.1.27 {
+  starts 4 2018/02/15 01:14:45;
+  ends 4 2018/02/15 01:24:45;
+  cltt 4 2018/02/15 01:14:45;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet bc:6e:64:7c:0e:a2;
+  uid "\001\274nd|\016\242";
+  set vendor-class-identifier = "android-dhcp-6.0.1";
+  client-hostname "android-3bc549c06995312f";
+}
+lease 192.168.1.10 {
+  starts 4 2018/02/15 01:15:12;
+  ends 4 2018/02/15 01:25:12;
+  cltt 4 2018/02/15 01:15:12;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 2c:fd:ab:2c:2b:4e;
+  set vendor-class-identifier = "android-dhcp-7.0";
+  client-hostname "android-d6e1aaa1032158f5";
+}
+lease 192.168.1.28 {
+  starts 4 2018/02/15 01:05:58;
+  ends 4 2018/02/15 01:15:58;
+  tstp 4 2018/02/15 01:15:58;
+  cltt 4 2018/02/15 01:05:58;
+  binding state free;
+  hardware ethernet e8:b4:c8:d4:fe:bd;
+  uid "\001\350\264\310\324\376\275";
+  set vendor-class-identifier = "dhcpcd-5.5.6";
+}
+lease 192.168.1.37 {
+  starts 4 2018/02/15 01:18:44;
+  ends 4 2018/02/15 01:28:44;
+  cltt 4 2018/02/15 01:18:44;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 68:a0:f6:75:54:46;
+  set vendor-class-identifier = "dhcpcd-5.5.6";
+  client-hostname "android-4c7f23a2ead89c49";
+}

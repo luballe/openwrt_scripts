@@ -33,17 +33,17 @@ function main
   while read line
   do
     #echo $line
-    # Get user and ip
-    user=$(echo "$line"|cut -f 1 -s -d ",")
-    ip=$(echo "$line"|cut -f 2 -s -d ",")
-    #echo $user
-    #echo $ip
+    # Get router user and router ip
+    routerUser=$(echo "$line"|cut -f 1 -s -d ",")
+    routerIp=$(echo "$line"|cut -f 2 -s -d ",")
+    #echo $routerUser
+    #echo $routerIp
     # Delete, if exists, the temp files
-    if [ -f /tmp/$ip ]; then
-      rm /tmp/$ip
+    if [ -f /tmp/$routerIP ]; then
+      rm /tmp/$routerIp
     fi
     # Spawn a process for each router
-    get_MACs_per_router $user $ip > /tmp/$ip &
+    get_MACs_per_router $routerUser $routerIp > /tmp/$routerIp &
     # Add a pid to the list of pids
     pids="$pids $!"
  
@@ -56,10 +56,10 @@ function main
   exec < routers.txt
   while read line
   do
-    #Get ip
-    ip=$(echo "$line"|cut -f 2 -s -d ",")
+    #Get routerIp
+    routerIp=$(echo "$line"|cut -f 2 -s -d ",")
     #Cat file content
-    cat /tmp/$ip
+    cat /tmp/$routerIp
   done
 
 }
