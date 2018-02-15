@@ -1,10 +1,10 @@
-echo -n "getting MAC addresses by router... "
+echo -n "getting MAC addresses from routers... "
 ./showMACsbyRouter.sh > /tmp/macsByRouter.txt
 echo "Done!"
-echo -n "getting all active hosts... "
+echo -n "getting all active hosts from nmap... "
 ./showAllActiveHostsFromNmap.sh > /tmp/allActiveHostsFromNmap.txt
 echo "Done!"
-echo -n "getting hostnames by mac address... "
+echo -n "getting hostnames by mac address from leases... "
 ./showHostNamesFromLeases.sh > /tmp/hostnamesFromLeases.txt
 echo "Done!"
 
