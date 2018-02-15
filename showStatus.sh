@@ -1,12 +1,19 @@
-echo -n "getting MAC addresses from routers... "
-./showMACsbyRouter.sh > /tmp/macsByRouter.txt
-echo "Done!"
-echo -n "getting all active hosts from nmap... "
-./showAllActiveHostsFromNmap.sh > /tmp/allActiveHostsFromNmap.txt
-echo "Done!"
-echo -n "getting hostnames by mac address from leases... "
-./showHostNamesFromLeases.sh > /tmp/hostnamesFromLeases.txt
-echo "Done!"
+pids=""
+echo "getting MAC addresses from routers... "
+./showMACsbyRouter.sh > /tmp/macsByRouter.txt &
+pids="$pids $!"
+#echo "Done!"
+echo "getting all active hosts from nmap... "
+./showAllActiveHostsFromNmap.sh > /tmp/allActiveHostsFromNmap.txt &
+#echo "Done!"
+pids="$pids $!"
+echo "getting hostnames by mac address from leases... "
+./showHostNamesFromLeases.sh > /tmp/hostnamesFromLeases.txt &
+pids="$pids $!"
+#echo "Done!"
+
+# Wait for every spawned process to finish
+wait $pids
 
 awk '
     BEGIN {FS=OFS=","}
