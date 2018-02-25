@@ -34,6 +34,6 @@ awk 'BEGIN{
 
     hostname2=substr(hostname,2,length(hostname)-2)
 
-    print ether "," hostname2
+    print ether "," hostname2 "," ip
 } ' /var/lib/dhcp/dhcpd.leases | awk '!NF || !seen[$0]++'
 

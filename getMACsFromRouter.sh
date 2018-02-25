@@ -29,7 +29,7 @@ get_MACs_per_router () {
 function main
 {
   #Iterate for every line and spawn process
-  exec < routers.txt
+  exec < /home/pi/openwrt_scripts/routers.txt
   while read line
   do
     #echo $line
@@ -53,7 +53,7 @@ function main
   wait $pids
 
   # Cat the collected info in tmp files  
-  exec < routers.txt
+  exec < /home/pi/openwrt_scripts/routers.txt
   while read line
   do
     #Get routerIp

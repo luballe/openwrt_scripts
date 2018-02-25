@@ -1,0 +1,21 @@
+8C:E0:81:99:21:10,Modem ZTE
+10:FE:ED:40:BD:D8,Router Piso 1
+F8:1A:67:A5:07:9C,Router Piso 2_1
+C4:E9:84:27:05:72,Router Piso 2_2
+F8:1A:67:A5:07:34,Router Piso 3_1
+C4:E9:84:27:43:00,Router Piso 3_2
+C4:6E:1F:8F:BC:B8,Router Privado
+B8:27:EB:46:F0:C8,Raspi 
+00:05:FE:AB:38:62,DVR
+2C:FD:AB:2C:2B:4E,Tableta hotel
+78:59:5E:0D:76:83,Android Luis G
+8C:7C:92:6D:DE:F1,iPad Olga
+78:CA:39:B6:57:67,macBookPro Luis G
+58:B0:35:79:44:79,macBook David
+74:72:B0:90:D1:F1,TV Challenger Nuevo
+18:34:51:6B:D1:77,iPhone Luis G
+8C:BF:A6:29:5E:C0,Android Deya
+0C:84:DC:8D:F7:71,Laptop Deya
+C0:1A:DA:CB:27:22,iPhone Tio Humberto
+9C:DF:B6:07:38:73,Android Cleofe
+50:82:D5:B3:B1:59,iPhone Micho
