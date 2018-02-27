@@ -1,0 +1,73 @@
+# The format of this file is documented in the dhcpd.leases(5) manual page.
+# This lease file was written by isc-dhcp-4.3.5
+
+# authoring-byte-order entry is generated, DO NOT DELETE
+authoring-byte-order little-endian;
+
+lease 192.168.1.5 {
+  starts epoch 1519650195; # Mon Feb 26 08:03:15 2018
+  ends epoch 1519736595; # Tue Feb 27 08:03:15 2018
+  cltt epoch 1519665501; # Mon Feb 26 12:18:21 2018
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 18:34:51:6b:d1:77;
+  uid "\001\0304Qk\321w";
+  client-hostname "Luiss-iPhone";
+}
+lease 192.168.1.7 {
+  starts epoch 1519672117; # Mon Feb 26 14:08:37 2018
+  ends epoch 1519758517; # Tue Feb 27 14:08:37 2018
+  cltt epoch 1519673889; # Mon Feb 26 14:38:09 2018
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 0c:91:60:b6:47:68;
+  uid "\001\014\221`\266Gh";
+  set vendor-class-identifier = "udhcp 1.14.2";
+}
+lease 192.168.1.9 {
+  starts epoch 1519673413; # Mon Feb 26 14:30:13 2018
+  ends epoch 1519759813; # Tue Feb 27 14:30:13 2018
+  cltt epoch 1519677165; # Mon Feb 26 15:32:45 2018
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 20:f5:43:23:46:96;
+  uid "\001 \365C#F\226";
+  set vendor-class-identifier = "udhcp 1.14.2";
+}
+lease 192.168.1.50 {
+  starts epoch 1519650195; # Mon Feb 26 08:03:15 2018
+  ends epoch 1519736595; # Tue Feb 27 08:03:15 2018
+  cltt epoch 1519665501; # Mon Feb 26 12:18:21 2018
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 18:34:51:6b:d1:88;
+  uid "\001\0304Qk\321w";
+  client-hostname "JAJA";
+}
+lease 192.168.1.70 {
+  starts epoch 1519672117; # Mon Feb 26 14:08:37 2018
+  ends epoch 1519758517; # Tue Feb 27 14:08:37 2018
+  cltt epoch 1519673889; # Mon Feb 26 14:38:09 2018
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 0c:91:60:b6:47:66;
+  uid "\001\014\221`\266Gh";
+  set vendor-class-identifier = "udhcp 1.14.2";
+}
+lease 192.168.1.90 {
+  starts epoch 1519673413; # Mon Feb 26 14:30:13 2018
+  ends epoch 1519759813; # Tue Feb 27 14:30:13 2018
+  cltt epoch 1519677165; # Mon Feb 26 15:32:45 2018
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 20:f5:43:23:46:96;
+  uid "\001 \365C#F\226";
+  set vendor-class-identifier = "udhcp 1.14.2";
+}
+
