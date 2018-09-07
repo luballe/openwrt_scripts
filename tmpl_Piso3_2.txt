@@ -1,0 +1,18 @@
+
+config wifi-device 'radio0'
+        option type 'mac80211'
+        option hwmode '11g'
+        option path 'platform/ath9k'
+        option htmode 'HT20'
+        option country 'CO'
+        option channel '3'
+        option txpower '10'
+
+config wifi-iface
+        option device 'radio0'
+        option mode 'ap'
+        option ssid 'ermita_'
+        option network 'lan wlan0'
+        option encryption 'psk-mixed'
+        option key 'ermita0218'
+        option macfilter 'deny'

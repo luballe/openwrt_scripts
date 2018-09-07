@@ -4,9 +4,9 @@ config wifi-device 'radio0'
         option hwmode '11g'
         option path 'pci0000:00/0000:00:00.0/0000:01:00.0'
         option htmode 'HT20'
-        option channel '7'
+        option channel '5'
         option country 'CO'
-        option txpower '17'
+        option txpower '10'
 
 config wifi-iface
         option device 'radio0'

@@ -13,13 +13,17 @@ B8:27:EB:46:F0:C8,Raspi
 78:CA:39:B6:57:67,MacBookPro Luis G
 58:B0:35:79:44:79,MacBook David
 74:72:B0:90:D1:F1,TV Challenger Nuevo
-54:88:0E:9A:87:34,TV Challenger Mama
+54:88:0E:9A:87:34,TV Samsung Mama
 18:34:51:6B:D1:77,iPhone Luis G
+48:A9:1C:CF:EA:F4,iPhone SE Luis G
 8C:BF:A6:29:5E:C0,Android Deya
 0C:84:DC:8D:F7:71,Laptop Deya
 C0:1A:DA:CB:27:22,iPhone Tio Humberto
 9C:DF:B6:07:38:73,Android Cleofe
+A8:B8:6E:54:3E:89,Android Laura
+D0:04:01:EE:32:04,Android Tio Edmundo
 50:82:D5:B3:B1:59,iPhone Micho
+10:40:F3:8D:16:AC,MacBook Air Micho
 0C:91:60:B6:47:68,TV 201
 20:F5:43:23:46:96,TV 202
 20:F5:43:20:8C:9B,TV 203
