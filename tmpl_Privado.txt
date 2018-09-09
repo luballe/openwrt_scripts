@@ -6,7 +6,7 @@ config wifi-device 'radio0'
         option htmode 'HT20'
         option country 'CO'
         option channel '11'
-        option txpower '10'
+        option txpower '16'
 
 config wifi-iface
         option device 'radio0'

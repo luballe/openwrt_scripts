@@ -5,7 +5,7 @@ config wifi-device 'radio0'
         option path 'platform/ath9k'
         option htmode 'HT20'
         option country 'CO'
-        option txpower '10'
+        option txpower '20'
         option channel '1'
 
 config wifi-iface
